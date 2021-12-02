@@ -1,0 +1,35 @@
+{
+  "name": "nomadcoffee-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-dongwook-jung/nomadcoffee-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justin-dongwook-jung/nomadcoffee-backend/issues"
+  },
+  "homepage": "https://github.com/justin-dongwook-jung/nomadcoffee-backend#readme",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.5.2",
+    "@graphql-tools/merge": "^8.2.1",
+    "@graphql-tools/schema": "^8.3.1",
+    "@prisma/client": "^3.6.0",
+    "apollo-server": "^3.5.0",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "prisma": "^3.6.0"
+  }
+}
